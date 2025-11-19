@@ -1,0 +1,34 @@
+# Core dependencies для QLoRA Fine-tuning Gemma 3:12b
+# Python 3.10+ рекомендуется
+
+# Transformers и связанные
+transformers>=4.40.0
+accelerate>=0.27.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# PyTorch (установите версию для вашей CUDA)
+# Для CUDA 12.1:
+torch>=2.2.0
+# Для установки: pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+# Datasets и обработка данных
+datasets>=2.18.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Monitoring и логирование
+tensorboard>=2.15.0
+tqdm>=4.66.0
+
+# Опционально для evaluation
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Опционально для flash attention (ускорение)
+# flash-attn>=2.5.0  # Установка может быть сложной, см. документацию
+
+# Utility
+jsonlines>=4.0.0
+

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data files
+data/*.csv
+data/*.jsonl
+data/*.txt
+!data/.gitkeep
+
+# Model checkpoints (слишком большие)
+models/*/
+!models/.gitkeep
+
+# Outputs
+outputs/*/
+!outputs/.gitkeep
+
+# Logs
+logs/*/
+!logs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+*.log
+

@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Model files and checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Hugging Face cache
+.cache/
+models--*/
+
+# Training outputs (keep structure, ignore large files)
+gemma_finetuning/outputs/*/checkpoint-*/optimizer.pt
+gemma_finetuning/outputs/*/checkpoint-*/scheduler.pt
+gemma_finetuning/outputs/*/checkpoint-*/rng_state.pth
+gemma_finetuning/outputs/*/checkpoint-*/adapter_model.safetensors
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# TensorBoard
+events.out.tfevents.*
+
+# Data files (large datasets)
+*.csv
+*.xlsx
+*.xls
+!data/purpose_codes.txt
+!gemma_finetuning/data/metadata.json
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*copy.csv
+*(Copy)/
+
+# Environment variables
+.env
+.env.local
+
+# API keys and secrets
+secrets.json
+config.json
+*.key
+*.pem
+
+# Test outputs
+test_results/
+test_output/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Distribution
+*.tar.gz
+*.zip
+*.rar
+
+# IDE
+*.sublime-*
+*.code-workspace
+
+# Ollama models (managed separately)
+.ollama/
+
+# Large model files
+gemma_finetuning/models/
+*.model
+
+# Exclude specific large directories
+final_dataset*.csv
+SwiftTransfers*.xlsx
+

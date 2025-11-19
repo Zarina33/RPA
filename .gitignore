@@ -70,6 +70,15 @@ events.out.tfevents.*
 !data/purpose_codes.txt
 !gemma_finetuning/data/metadata.json
 
+# Large text data files
+data/filtered_transactions.txt
+data/final_dataset.txt
+data/dataset_with_purposes.txt
+data/modified_transactions.txt
+data/analysis_report.txt
+data/FINAL_ANALYSIS_REPORT.txt
+data/ULTIMATE_FINAL_REPORT.txt
+
 # Temporary files
 *.tmp
 *.temp
